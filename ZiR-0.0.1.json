@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "Z30e",
+      "maintainer": "Metalgit",
+      "websiteURL": "https://",
+      "email" : "@",
+      "platforms":
+      [
+        {
+          "name": "Z30E board",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/StjepanDva/custom_boards/blob/master/ZiR-0.0.1.zip?raw=true",
+          "archiveFileName": "ZiR-0.0.1.zip",
+          "checksum": "SHA-256:BE9B18A17DCAA177B309DFE24DAC44C0CA112129362CDABAF9AE4525DCD2DBCC",
+          "size": "1121889",
+          "boards": [
+            {
+              "name": "Z30e"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
