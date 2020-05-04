@@ -23,7 +23,7 @@
           "size": "2980953",
           "boards": [
             { "name": "Arduino MKR WiFi 1010" },
-            { "name": "Arduino Zero" },
+            { "name": "Arduino zzzz" },
             { "name": "Arduino MKR1000" },
             { "name": "Arduino MKRZERO" },
             { "name": "Arduino MKR FOX 1200" },
