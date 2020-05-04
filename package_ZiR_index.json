@@ -18,8 +18,8 @@
           "category": "Contributed",
           "url": "https://github.com/StjepanDva/custom_boards/blob/master/ZiR-0.0.1.zip?raw=true",
           "archiveFileName": "ZiR-0.0.1.zip",
-          "checksum": "SHA-256:F00B64ED51AD69713F6BC96568A1DF2E9A024EAFD0AD623316C12485AE82A2B4",
-          "size": "1121888",
+          "checksum": "SHA-256:B48BA2A464CE6C590297CEF8C089FEE63EDCAEB89D7241F58599D01A49811E09",
+          "size": "1121887",
           "boards": [
             {
               "name": "Z30e"
