@@ -1,0 +1,61 @@
+{
+  "packages":
+  [
+    {
+      "name": "falconzzz",
+      "maintainer": "Martin Linduppzzz",
+      "websiteURL": "http://www.arduino.cc/en/Reference/HomePage",
+      "help":
+      {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms":
+      [
+        {
+          "name": "Falcon Flight Controller Boardszzzz",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "file://D:/_git/custom_boards/ZiR-0.0.1.zip",
+          "archiveFileName": "ZiR-0.0.1.zip",
+          "checksum": "SHA-256:F00B64ED51AD69713F6BC96568A1DF2E9A024EAFD0AD623316C12485AE82A2B4",
+          "size": "1121888",
+          "boards": [
+    {
+      "name": "Falcon 1zzz"
+    },
+            {
+              "name": "Falcon 2zzz"
+            }         
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
