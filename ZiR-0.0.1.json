@@ -1,8 +1,8 @@
 {
   "packages": [
     {
-      "name": "arduino",
-      "maintainer": "Arduino",
+      "name": "zzzz",
+      "maintainer": "zzzzzzzzz",
       "websiteURL": "http://www.arduino.cc/",
       "email": "packages@arduino.cc",
       "help": {
@@ -12,8 +12,8 @@
         {
           "name": "zzzz boards",
           "architecture": "samd",
-          "version": "1.8.6",
-          "category": "Arduino",
+          "version": "3.2.1",
+          "category": "Contributed",
           "help": {
             "online": "http://www.arduino.cc/en/Reference/HomePage"
           },
@@ -23,7 +23,7 @@
           "size": "2980953",
           "boards": [
             { "name": "Arduino MKR WiFi 1010" },
-            { "name": "Arduino zzzz" },
+            { "name": "Arduino Zero" },
             { "name": "Arduino MKR1000" },
             { "name": "Arduino MKRZERO" },
             { "name": "Arduino MKR FOX 1200" },
