@@ -9,7 +9,7 @@
       "platforms":
       [
         {
-          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
+          "name": "Arduino zzz Boards (32-bits ARM Cortex-M0+)",
           "architecture": "samd",
           "version": "1.8.6",
           "category": "Arduino",
