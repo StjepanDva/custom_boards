@@ -17,8 +17,8 @@
 # Z30e (Native USB Port)
 # --------------------------------------
 Z30e.name=Z30e (Native USB Port)
-Z30e.vid.0=0x2341
-Z30e.pid.0=0x804d
+Z30e.vid.0=0x3351
+Z30e.pid.0=0x905d
 Z30e.vid.1=0x2341
 Z30e.pid.1=0x004d
 Z30e.vid.2=0x2341
@@ -43,7 +43,41 @@ Z30e.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 Z30e.build.openocdscript=openocd_scripts/arduino_zero.cfg
 Z30e.build.variant=Z30e
 Z30e.build.variant_system_lib=
-Z30e.build.vid=0x2341
-Z30e.build.pid=0x804d
+Z30e.build.vid=0x3351
+Z30e.build.pid=0x905d
 Z30e.bootloader.tool=openocd
 Z30e.bootloader.file=Z30e/Z30e_hw100.bin
+
+# ZagNet (Native USB Port)
+# --------------------------------------
+ZagNet.name=ZagNet (Native USB Port)
+ZagNet.vid.0=0x3351
+ZagNet.pid.0=0x905e
+ZagNet.vid.1=0x2341
+ZagNet.pid.1=0x004e
+ZagNet.vid.2=0x2341
+ZagNet.pid.2=0x824e
+ZagNet.vid.3=0x2341
+ZagNet.pid.3=0x024e
+
+ZagNet.upload.tool=bossac
+ZagNet.upload.protocol=sam-ba
+ZagNet.upload.maximum_size=262144
+ZagNet.upload.use_1200bps_touch=true
+ZagNet.upload.wait_for_upload_port=true
+ZagNet.upload.native_usb=true
+ZagNet.build.mcu=cortex-m0plus
+ZagNet.build.f_cpu=48000000L
+ZagNet.build.usb_product="ZagNet"
+ZagNet.build.usb_manufacturer="ZiR"
+ZagNet.build.board=ZagNet
+ZagNet.build.core=arduino
+ZagNet.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+ZagNet.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+ZagNet.build.openocdscript=openocd_scripts/arduino_zero.cfg
+ZagNet.build.variant=ZagNet
+ZagNet.build.variant_system_lib=
+ZagNet.build.vid=0x3351
+ZagNet.build.pid=0x905e
+ZagNet.bootloader.tool=openocd
+ZagNet.bootloader.file=ZagNet/ZagNet_hw100.bin
