@@ -141,11 +141,6 @@ SECTIONS
 	} > FLASH
 	*/
 	
-	.myloc 0x34000 :
-	{
-		KEEP(*(.myloc))
-	} > FLASH		
-	
 	__etext = .;
 
 	.data : AT (__etext)
